@@ -1,0 +1,52 @@
+.Container {
+    margin-top: 6vmin;
+    background-color: black;
+    height: 55vmin;
+    width: 80vmin;
+    border: solid 10px gold;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .InfoTitle {
+    margin-top: 2vmin;
+    margin-bottom: 1vmin;
+    font-size: 4vmin;
+    font-weight: bold;
+  }
+
+  .InfoItem {
+    margin-top: 0.5vmin;
+    font-size: 3vmin;
+  }
+
+  .ButtonsContainer {
+      margin-top: 2.5vmin;
+      width: 30vmin;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .Button {
+      background-color: white;
+      border-radius: 8px;
+      color: black;
+      padding-left: 2vmin;
+      padding-right: 2vmin;
+      padding-top: 1vmin;
+      padding-bottom: 1vmin;
+      font-family: 'Roboto';
+      font-weight: bold;
+      cursor: pointer;
+      transition: all .2s ease-in-out; 
+  }
+
+  .Button:hover { 
+    transform: scale(0.9); 
+    cursor: pointer;
+}
